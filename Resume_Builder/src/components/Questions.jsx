@@ -64,7 +64,7 @@ function Questions() {
       <div className={styleClass.root}>
         {questions.length === answers.length ? (<Resume />) : (
           <div className={styleClass.question}>
-            <Question question={questionAnswer.question} />
+            <Question />
           </div>
         )}
       </div>
